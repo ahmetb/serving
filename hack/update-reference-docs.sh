@@ -31,6 +31,6 @@ source $(dirname $0)/../vendor/knative.dev/hack/library.sh
   go run "${REPO_ROOT_DIR}/vendor/github.com/ahmetb/gen-crd-api-reference-docs" \
     -out-file "docs/serving-api.md" \
     -api-dir "knative.dev/serving/pkg/apis" \
-    -template-dir "${REPO_ROOT_DIR}/vendor/github.com/ahmetb/gen-crd-api-reference-docs/template" \
+    -template-dir "/Users/ahmetb/workspace/gen-crd-api-reference-docs/template" \
     -config "${REPO_ROOT_DIR}/hack/reference-docs-gen-config.json"
 )
